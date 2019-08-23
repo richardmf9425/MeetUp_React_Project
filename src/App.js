@@ -5,11 +5,13 @@ import { AppBar } from 'material-ui/AppBar';
 import { ToolBar } from 'material-ui';
 import { MenuIcon } from 'material-ui/Menu';
 import { IconButton } from 'material-ui/IconButton';
+import Featured from './components/featured';
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App" style={{ height: '1500px', background: 'red' }}>
 			<Header />
+			<Featured />
 		</div>
 	);
 }
