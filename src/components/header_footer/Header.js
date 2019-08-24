@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import ToolBar from '@material-ui/core/ToolBar';
+import { Toolbar } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
 import SideDrawer from './SideDrawer';
@@ -45,7 +45,7 @@ class Header extends Component {
 						transition: 'all .5s linear'
 					}}
 				>
-					<ToolBar>
+					<Toolbar>
 						<div className="header_logo">
 							<div className="font_righteous header_logo_venue">MeetUp</div>
 							<div className="header_logo_title">Front End in Gainesville</div>
@@ -54,7 +54,7 @@ class Header extends Component {
 							<MenuIcon />
 						</IconButton>
 						<SideDrawer open={this.state.drawerOpen} onClose={() => this.toggleDrawer()} />
-					</ToolBar>
+					</Toolbar>
 				</AppBar>
 			</div>
 		);
