@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import MyButton from '../utils/MyButton';
 import Zoom from 'react-reveal/Zoom';
+import woman_face from '../../resources/images/woman_face.jpg';
+import man_face1 from '../../resources/images/man_face1.jpg';
+import man_face from '../../resources/images/man_face.jpg';
 
 export class Guests extends Component {
 	state = {
-		pics: [ 'image1', 'image2', 'image3' ],
+		pics: [ man_face1, woman_face, man_face ],
 		names: [ 'John', 'Emma', 'Dan' ],
 		desc: [
 			'John ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, voluptatibus.',
@@ -18,14 +21,17 @@ export class Guests extends Component {
 	showCards = () =>
 		this.state.pics.map((box, i) => (
 			<Zoom key={i} delay={this.state.delay[i]}>
-				<div className="pricing_item">
-					<div className="pricing_inner_wrapper">
-						<div className="pricing_title">
-							<span>{this.state.pics[i]}</span>
+				<div className="guests_item">
+					<div className="guests_inner_wrapper">
+						<div className="guests_title">
+							<div className="pictures">
+								<img className="guests_pictures" src={this.state.pics[i]} alt="" />
+							</div>
+
 							<span>{this.state.names[i]}</span>
 						</div>
-						<div className="pricing_description">{this.state.desc[i]}</div>
-						<div className="pricing_buttons">
+						<div className="guests_description">{this.state.desc[i]}</div>
+						<div className="guests_buttons">
 							<MyButton text="Learn More" bck="#ffa800" color="white" link={this.state.link[i]} />
 						</div>
 					</div>
@@ -36,9 +42,9 @@ export class Guests extends Component {
 	render() {
 		return (
 			<div className="bck_black">
-				<div className="center_wrapper pricing_section">
+				<div className="center_wrapper guests_section">
 					<h2>Special Guests</h2>
-					<div className="pricing_wrapper">{this.showCards()}</div>
+					<div className="guests_wrapper">{this.showCards()}</div>
 				</div>
 			</div>
 		);

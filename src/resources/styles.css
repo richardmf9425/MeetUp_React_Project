@@ -20,6 +20,10 @@ body {
     background: #ff4800;
 }
 
+.bck_light_blue {
+    background: #01a4c9;
+}
+
 .bck_yellow {
     background: #ffa800;
 }
@@ -84,7 +88,7 @@ footer .footer_copyright {
     background-size: cover !important;
 }
 
-.artist_name {
+.event_name {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,16 +96,22 @@ footer .footer_copyright {
     height: 160px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border: 2px solid white;
+    border: 12px solid #03cffc;
+    border-radius: 40px;
 }
 
-.artist_name .wrapper {
-    border: 2px solid white;
+
+
+
+
+.event_name .wrapper {
+
+    font-family: 'Righteous', cursive;
     height: 121px;
     margin: 6px;
     text-align: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 45px;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
 }
@@ -117,7 +127,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #017691;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -126,13 +136,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #01a4c9;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid #017691;
     margin-right: 14px;
     padding-right: 49px;
 }
@@ -234,38 +244,38 @@ footer .footer_copyright {
     padding: 30px 0px;
 }
 
-.discount_wrapper {
+.highlights_wrapper {
     display: flex;
     padding: 70px 0px;
 }
 
-.discount_wrapper .discount_percentage {
+.highlights_wrapper .highlights_percentage {
     padding-right: 100px;
 }
 
-.discount_wrapper .discount_percentage span:nth-child(2) {
-    color: #ff4800;
+.highlights_wrapper .highlights_percentage span:nth-child(2) {
+    color: #01a4c9;
     font-size: 80px;
     font-weight: 400;
     display: block;
     line-height: 120px;
 }
 
-.discount_wrapper .discount_percentage span:nth-child(1) {
+.highlights_wrapper .highlights_percentage span:nth-child(1) {
     color: #2c2c2c;
     font-size: 50px;
     font-weight: 400;
     display: block;
 }
 
-.discount_wrapper .discount_description h3 {
+.highlights_wrapper .highlights_description h3 {
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
     color: #2c2c2c;
 }
 
-.discount_wrapper .discount_description p {
+.highlights_wrapper .highlights_description p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -275,11 +285,11 @@ footer .footer_copyright {
         PRICING
 ======================*/
 
-.pricing_section {
+.guests_section {
     padding: 70px 0px;
 }
 
-.pricing_section h2 {
+.guests_section h2 {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -287,42 +297,63 @@ footer .footer_copyright {
     margin: 0;
 }
 
-.pricing_wrapper {
+.guests_wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-.pricing_wrapper .pricing_item {
-    flex-grow: 1;
+.guests_wrapper .guests_item {
+    flex-grow: 3;
     width: 33%;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.pricing_wrapper .pricing_inner_wrapper {
-    border: 2px solid #ffa800;
-    padding: 50px 20px;
+.guests_wrapper .guests_inner_wrapper {
+    border: 2px solid #01a4c9;
+    padding: 30px 20px;
+
+
 }
 
-.pricing_inner_wrapper .pricing_title {
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.guests_inner_wrapper .guests_title .guests_pictures {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border: 2px solid #01a4c9;
+
+
+}
+
+.guests_inner_wrapper .guests_title {
     color: #ffffff;
     text-align: center;
-    border-bottom: 1px solid #ffa800;
+    border-bottom: 1px solid #01a4c9;
     padding-bottom: 20px;
 }
 
-.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+.guests_inner_wrapper .guests_title span:nth-child(1) {
     font-size: 50px;
     display: block;
 }
 
-.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+.guests_inner_wrapper .guests_title span:nth-child(2) {
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 300;
 }
 
-.pricing_inner_wrapper .pricing_description {
+.guests_inner_wrapper .guests_description {
     color: #b8b8b8;
     font-weight: 300;
     font-size: 14px;
@@ -331,7 +362,7 @@ footer .footer_copyright {
     min-height: 70px;
 }
 
-.pricing_inner_wrapper .pricing_buttons {
+.guests_inner_wrapper .guests_buttons {
     text-align: center;
 }
 

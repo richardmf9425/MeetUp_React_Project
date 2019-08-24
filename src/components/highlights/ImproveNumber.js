@@ -26,16 +26,16 @@ export class ImproveNumber extends Component {
 	render() {
 		return (
 			<div className="center_wrapper">
-				<div className="discount_wrapper">
+				<div className="highlights_wrapper">
 					<Fade onReveal={() => this.percentage()}>
-						<div className="discount_percentage">
+						<div className="highlights_percentage">
 							<span>Improve:</span>
 							<span>{this.state.numberStart}%</span>
 						</div>
 					</Fade>
 
 					<Slide right>
-						<div className="discount_description">
+						<div className="highlights_description">
 							<h3>Become a React Master in just a couple of hours</h3>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor placeat officiis a

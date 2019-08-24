@@ -24,7 +24,7 @@ function MeetupInfo() {
 						<div className="vn_item">
 							<div className="vn_outer">
 								<div className="vn_inner">
-									<div className="vn_icon_square bck_red" />
+									<div className="vn_icon_square bck_light_blue" />
 									<div className="vn_icon" style={{ background: `url(${icon_calendar})` }} />
 									<div className="vn_title">Event Date & Time</div>
 									<div className="vn_desc">
