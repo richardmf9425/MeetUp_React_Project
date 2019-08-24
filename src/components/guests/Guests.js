@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 
 export class Guests extends Component {
 	state = {
-		pics: [ 100, 150, 250 ],
+		pics: [ 'image1', 'image2', 'image3' ],
 		names: [ 'John', 'Emma', 'Dan' ],
 		desc: [
 			'John ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, voluptatibus.',
