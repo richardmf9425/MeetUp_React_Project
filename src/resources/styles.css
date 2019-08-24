@@ -303,10 +303,11 @@ footer .footer_copyright {
 }
 
 .guests_wrapper .guests_item {
-    flex-grow: 3;
+    flex-grow: 1;
     width: 33%;
     padding: 20px;
     box-sizing: border-box;
+
 }
 
 .guests_wrapper .guests_inner_wrapper {
@@ -329,7 +330,7 @@ footer .footer_copyright {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     border: 2px solid #01a4c9;
 
 
@@ -340,6 +341,7 @@ footer .footer_copyright {
     text-align: center;
     border-bottom: 1px solid #01a4c9;
     padding-bottom: 20px;
+
 }
 
 .guests_inner_wrapper .guests_title span:nth-child(1) {

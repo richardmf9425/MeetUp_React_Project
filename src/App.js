@@ -14,7 +14,7 @@ import Location from './components/location/Location';
 import Footer from './components/header_footer/Footer';
 function App() {
 	return (
-		<div className="App" style={{ height: '1500px', background: 'red' }}>
+		<div className="App" style={{ height: '1500px', background: 'grey' }}>
 			<Header />
 			<Element name="featured">
 				<Featured />

@@ -8,11 +8,11 @@ import man_face from '../../resources/images/man_face.jpg';
 export class Guests extends Component {
 	state = {
 		pics: [ man_face1, woman_face, man_face ],
-		names: [ 'John', 'Emma', 'Dan' ],
+		names: [ 'John Spencer', 'Emma Doe', 'Dan Allen' ],
 		desc: [
-			'John ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, voluptatibus.',
-			'Emma ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, voluptatibus.',
-			'Dan ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, voluptatibus.'
+			'John works as a Software Engineer for Santa Claus Co. He specializes in accessability ',
+			'Emma is a Front End Developer at Google, she has over 10 years in the industry',
+			'Dan is a Senior Software Developer at Microsoft. He loves React and Node JS'
 		],
 		link: [ 'http://google.com', 'http://google.com', 'http://google.com' ],
 		delay: [ 500, 0, 500 ]
@@ -32,7 +32,7 @@ export class Guests extends Component {
 						</div>
 						<div className="guests_description">{this.state.desc[i]}</div>
 						<div className="guests_buttons">
-							<MyButton text="Learn More" bck="#ffa800" color="white" link={this.state.link[i]} />
+							<MyButton text="Learn More" bck="#01a4c9" color="white" link={this.state.link[i]} />
 						</div>
 					</div>
 				</div>

@@ -14,20 +14,25 @@ function SideDrawer(props) {
 		});
 		props.onClose(false);
 	};
+
+	const navBarStyles = {
+		background: '#000000',
+		width: '100px'
+	};
 	return (
-		<Drawer anchor="right" open={props.open} onClose={() => props.onClose()}>
+		<Drawer anchor="right" classes={navBarStyles} open={props.open} onClose={() => props.onClose()}>
 			<List component="nav">
 				<ListItem button onClick={() => scrollTo('featured')}>
-					Event Starts In
+					Home Page
 				</ListItem>
 				<ListItem button onClick={() => scrollTo('Info')}>
-					INFO
+					Event Information
 				</ListItem>
 				<ListItem button onClick={() => scrollTo('highlights')}>
-					Guests
+					Special Guests
 				</ListItem>
 				<ListItem button onClick={() => scrollTo('guests')}>
-					Highlights
+					Highlights of the Event
 				</ListItem>
 				<ListItem button onClick={() => scrollTo('location')}>
 					Location
