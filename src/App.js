@@ -2,10 +2,7 @@ import React from 'react';
 import './resources/styles.css';
 import { Element } from 'react-scroll';
 import Header from './components/header_footer/Header';
-import { AppBar } from 'material-ui/AppBar';
-import { ToolBar } from 'material-ui';
-import { MenuIcon } from 'material-ui/Menu';
-import { IconButton } from 'material-ui/IconButton';
+
 import Featured from './components/featured/Featured';
 import MeetupInfo from './components/meetupInfo/MeetupInfo';
 import Highlights from './components/highlights/Highlights';
