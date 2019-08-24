@@ -8,6 +8,7 @@ import { IconButton } from 'material-ui/IconButton';
 import Featured from './components/featured';
 import MeetupInfo from './components/meetupInfo';
 import Highlights from './components/highlights/Highlights';
+import Guests from './components/guests/Guests';
 function App() {
 	return (
 		<div className="App" style={{ height: '1500px', background: 'red' }}>
@@ -15,6 +16,7 @@ function App() {
 			<Featured />
 			<MeetupInfo />
 			<Highlights />
+			<Guests />
 		</div>
 	);
 }
