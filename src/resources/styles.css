@@ -60,9 +60,9 @@ header .header_logo_title {
 ======================*/
 
 footer {
-    padding: 50px 0px;
+    padding: 20px 0px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #ffffff;
     background: red;
 }
@@ -345,7 +345,7 @@ footer .footer_copyright {
 
 .location_tag {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     width: 100%;
 }
 
@@ -353,9 +353,9 @@ footer .footer_copyright {
     background: #2c2c2c;
     color: #ffffff;
     text-transform: uppercase;
-    width: 220px;
+    width: 200px;
     margin: 0 auto;
-    font-size: 29px;
-    padding: 15px 20px;
+    font-size: 20px;
+    padding: 15px 10px;
     text-align: center;
 }
